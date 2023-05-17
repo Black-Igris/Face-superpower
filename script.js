@@ -27,7 +27,7 @@ video.addEventListener('play', () => {
     faceapi.draw.drawDetections(canvas, resizedDetections)
     resizedDetections.forEach(detection => {
       const { top, left, width, height } = detection.detection.box
-      const name = 'John Doe' // Replace with the person's name
+      const name = 'L2bc' // Replace with the person's name
       const textY = top > 10 ? top - 5 : top + height + 15
 
       new faceapi.draw.DrawTextField(
